@@ -1,2 +1,8 @@
 git config --global user.name vitalii
-git config --global user.name bagrik571@gmail.com 
+git config --global user.name bagrik571@gmail.com
+
+git init -> ініціалізація гіт репорзирорію
+git add filename -> додати файл в stagging area
+git commit -m"commit msg" -> зробити коміт
+git status -> відобразити статус файлів репорзирорію
+git log -> відобразити лог комітів /репо
