@@ -1,0 +1,2 @@
+git config --global user.name vitalii
+git config --global user.name bagrik571@gmail.com 
