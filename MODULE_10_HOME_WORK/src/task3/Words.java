@@ -22,7 +22,9 @@ public class Words {
                 }
             }
         }
-        for (Map.Entry<String, Integer> entry : wordCounts.entrySet()) {
+        List<Map.Entry<String, Integer>> sortedList = new ArrayList<>(wordCounts.entrySet());
+        sortedList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+        for (Map.Entry<String, Integer> entry : sortedList) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
     }
